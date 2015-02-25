@@ -1,0 +1,12 @@
+{
+   "description" : "Récupère la valeur d'un interrupteur Reed (reed switch) si une porte est fermé ou ouverte",
+   "name" : "Porte",
+   "tags" : {
+      "sensors" : {},
+      "door" : {},
+      "gmail" : {},
+      "reed" : {},
+      "reed switch" : {}
+   },
+   "type" : "sensors"
+}

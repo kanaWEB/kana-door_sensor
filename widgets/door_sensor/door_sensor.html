@@ -16,7 +16,7 @@
 </div>
 {if="$websensor.sensor_battery != 'ON'"}
 <div class="progress nopadding">
-    <div class="progress-bar {$websensor.sensor_battery_class}" role="progressbar" aria-valuenow="{$websensor.sensor_battery}" aria-valuemin="0" aria-valuemax="100" style="width: {$websensor.sensor_battery}%;">
+    <div class="progress-bar progress-bar-{$websensor.sensor_battery_class}" role="progressbar" aria-valuenow="{$websensor.sensor_battery}" aria-valuemin="0" aria-valuemax="100" style="width: {$websensor.sensor_battery}%;">
         <span>{$websensor.sensor_battery}%</span>
     </div>
 </div> 
